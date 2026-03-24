@@ -1,0 +1,14 @@
+package com.umbrellaevent.entity.dtos.auth;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class newPasswordRequest {
+    private String token;
+    private String newPassword;
+    private String confirmPassword;
+}
